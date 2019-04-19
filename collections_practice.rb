@@ -43,7 +43,7 @@ end
 
       
 def merge_data(keys, data)
-  merged_data = {}
+  merged_data = []
   data.collect do |array|
     array.collect do |first_names, info_hash|
   keys.collect do |keys|
