@@ -75,5 +75,5 @@ end
         if organized_schools[city]
           organized_schools[city] << name
         else 
-          organized_schools[city] = 
+          organized_schools[city] = [school]
       
