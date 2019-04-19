@@ -18,7 +18,8 @@ def contain_a(array)
 end
 
 
-def first_wa(array)  
+def first_wa(array) 
+  array.to_s
   array.find {|word| word.start_with?("wa")}
   word
 end
