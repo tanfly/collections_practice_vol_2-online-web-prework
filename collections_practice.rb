@@ -43,6 +43,7 @@ end
 
       
 def merge_data(keys, data)
+  merged_data = {}
   
   
 end
