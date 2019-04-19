@@ -44,7 +44,8 @@ end
       
 def merge_data(keys, data)
   merged_data = {}
-  data.collect do 
+  data.collect do |array|
+    array.collect do |first_names, 
   
 end
   
