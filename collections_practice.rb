@@ -72,5 +72,5 @@ end
     organized_schools = {}
     schools.each do |name, info|
       info.each do |location, city|
-        if 
+        if organized_schools[]
       
