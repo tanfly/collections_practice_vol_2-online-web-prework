@@ -48,5 +48,6 @@ def merge_data(keys, data)
     array.collect do |first_names, info_hash|
   keys.collect do |key_array|
     key_array.collect do |name, info|
+      if first_names = 
 end
   
