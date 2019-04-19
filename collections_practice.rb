@@ -36,7 +36,6 @@ end
 
 def count_elements(array)
   counter = 0 
-  array.collect do |arrays, hashes|
-    hashes.collect do |key, value|
+  array.collect do 
       
     
