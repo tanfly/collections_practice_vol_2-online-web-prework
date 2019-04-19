@@ -61,5 +61,5 @@ end
   
   def find_cool(cool)
     cool.collect do |array, hash|
-      array.each do 
+      hash.each do |info|
     
