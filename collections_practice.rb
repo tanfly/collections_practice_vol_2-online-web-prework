@@ -19,5 +19,7 @@ end
 
 
 def first_wa(array) 
+  array.each do |elem|
+    if elem
   array.find {|word| word.start_with?("wa")}
 end
