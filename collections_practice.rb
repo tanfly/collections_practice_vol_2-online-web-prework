@@ -8,4 +8,4 @@ def begins_with_r(array)
   
 
 def contain_a(array)
-  if array.includes?
+  if array.include?("a")
