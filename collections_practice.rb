@@ -62,4 +62,4 @@ end
   def find_cool(cool)
     cool.collect do |array|
       if array.values.include?("cool")
-    
+        array
