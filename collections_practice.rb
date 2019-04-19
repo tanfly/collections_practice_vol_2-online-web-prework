@@ -19,3 +19,4 @@ end
 
 
 def first_wa(array)  
+  array.find
