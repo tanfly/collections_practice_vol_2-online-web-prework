@@ -1,6 +1,5 @@
 def begins_with_r(array)
-  array.map do |word|
-    if word.all? {|word.start_with?("r")}
+  array.any?
       return true 
     else 
       return false 
