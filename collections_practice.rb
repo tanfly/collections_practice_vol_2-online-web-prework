@@ -62,7 +62,7 @@ end
   def find_cool(cool)
     cool.select do |info|
       if info.values.include?("cool")
-        array
+        info
       end
     end
   end
