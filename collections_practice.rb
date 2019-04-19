@@ -36,6 +36,6 @@ end
 
 def count_elements(array)
   counter = 0 
-  array.collect do 
+  array.uniq.collect do 
       
     
