@@ -62,4 +62,5 @@ end
   def find_cool(cool)
     cool.collect do |array, hash|
       hash.each do |info|
+        if info[:]
     
