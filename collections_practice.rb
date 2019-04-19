@@ -23,3 +23,4 @@ def first_wa(array)
     word.to_s
   word.find {|letters| letters.start_with?("wa")}
 end
+end
