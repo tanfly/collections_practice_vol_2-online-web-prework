@@ -20,4 +20,5 @@ end
 
 def first_wa(array)  
   array.find {|word| word.start_with?("wa")}
+  word
 end
