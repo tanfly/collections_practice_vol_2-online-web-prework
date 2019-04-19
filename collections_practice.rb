@@ -36,7 +36,7 @@ end
 
 def count_elements(array)
   array.uniq.collect do |name|
-    name[:count] == array.count(name)
+    name[:count] = array.count(name)
     name
   end
 end
