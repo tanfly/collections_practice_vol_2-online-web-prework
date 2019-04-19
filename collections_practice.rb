@@ -63,3 +63,5 @@ end
     cool.collect do |array|
       if array.values.include?("cool")
         array
+      end
+    end
