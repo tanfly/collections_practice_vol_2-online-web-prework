@@ -16,4 +16,6 @@ def contain_a(array)
   end
   empty_array
 end
-  
+
+
+def first_wa(array)  
