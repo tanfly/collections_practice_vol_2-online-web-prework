@@ -14,5 +14,6 @@ def contain_a(array)
       empty_array << words
     end
   end
+  empty_array
 end
   
