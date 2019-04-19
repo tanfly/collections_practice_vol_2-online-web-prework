@@ -18,12 +18,6 @@ def contain_a(array)
 end
 
 
-def first_wa(array) 
-  new_array = []
-  array.each do |elem|
-    if elem.is_a?(symbol)
-      new_array << elem.to_s
-  new_array.find {|word| word.start_with?("wa")}
-end
-end
+def first_wa(array)
+  array.find{|word| word.to_s.start_with?("wa")}
 end
