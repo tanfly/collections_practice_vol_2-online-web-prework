@@ -20,6 +20,7 @@ end
 
 def first_wa(array) 
   array.each do |elem|
-    if elem.class? = string 
+    if elem.class? = symbol
+      elem.to_s
   array.find {|word| word.start_with?("wa")}
 end
