@@ -69,5 +69,6 @@ end
   
   
   def organize_schools(schools)
-    schools.each do |name, location|
+    schools.each do |name, info|
+      info.each do |location, city|
       
