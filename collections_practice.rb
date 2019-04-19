@@ -30,4 +30,5 @@ def remove_non_strings(array)
       new_array << words
     end
   end
+  new_array
 end
