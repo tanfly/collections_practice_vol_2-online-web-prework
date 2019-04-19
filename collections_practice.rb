@@ -49,5 +49,6 @@ def merge_data(keys, data)
   keys.collect do |key_array|
     key_array.collect do |name_sym, actual_name|
       if first_names = actual_name
+        merged_data << key_array
 end
   
