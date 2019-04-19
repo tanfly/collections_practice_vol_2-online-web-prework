@@ -76,4 +76,9 @@ end
           organized_schools[city] << name
         else 
           organized_schools[city] = [school]
+        end
+      end
+    end
+  end
+  
       
