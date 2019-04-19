@@ -19,8 +19,9 @@ end
 
 
 def first_wa(array) 
+  new_array = []
   array.each do |elem|
     if elem.class? = symbol
-      elem.to_s
-  array.find {|word| word.start_with?("wa")}
+      new_array << elem.to_s
+  new_array.find {|word| word.start_with?("wa")}
 end
