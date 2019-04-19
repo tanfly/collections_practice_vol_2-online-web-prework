@@ -25,7 +25,7 @@ end
 
 def remove_non_strings(array)
   array.collect do |words|
-    if words.is_a?(string)
+    if words.include?("")
       words.chomp
     end
   end
