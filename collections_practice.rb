@@ -73,5 +73,6 @@ end
     schools.each do |name, info|
       info.each do |location, city|
         if organized_schools[city]
-          organized_schools[city]
+          organized_schools[city] << name
+        else 
       
