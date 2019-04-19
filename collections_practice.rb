@@ -19,7 +19,6 @@ end
 
 
 def first_wa(array) 
-  array.to_s
-  array.find {|word| word.start_with?("wa")}
-  word
+  strings = array.to_s
+  strings.find {|word| word.start_with?("wa")}
 end
