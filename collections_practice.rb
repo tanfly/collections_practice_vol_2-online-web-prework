@@ -1,5 +1,5 @@
 def begins_with_r(array)
-  if array.any? {
+  if array.any? {|word| 
       return true 
     else 
       return false 
