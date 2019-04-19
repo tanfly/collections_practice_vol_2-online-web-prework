@@ -27,3 +27,6 @@ def remove_non_strings(array)
   array.collect do |words|
     if words.is_a?(string)
       words.chomp
+    end
+  end
+end
