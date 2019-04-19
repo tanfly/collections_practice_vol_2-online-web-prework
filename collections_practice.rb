@@ -58,3 +58,6 @@ end
 merged_data
 end
   
+  
+  def find_cool(cool)
+    
