@@ -1,3 +1,4 @@
 def begins_with_r(array)
-  array.join(", ")
+  strings = array.join(", ")
+  if strings.start
   
