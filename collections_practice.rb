@@ -60,6 +60,6 @@ end
   
   
   def find_cool(cool)
-    cool.collect do |array|
+    cool.collect do |array, hash|
       array.each do 
     
