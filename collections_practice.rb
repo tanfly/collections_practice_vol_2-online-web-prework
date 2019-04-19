@@ -66,3 +66,7 @@ end
       end
     end
   end
+  
+  
+  def organize_schools(schools)
+    
