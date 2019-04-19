@@ -60,7 +60,6 @@ end
   
   
   def find_cool(cool)
-    cool.collect do |array, hash|
-      hash.each do |info|
-        if info[:]
+    cool.collect do |array|
+      if array.values.include?("cool")
     
