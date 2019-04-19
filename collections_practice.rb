@@ -26,7 +26,7 @@ end
 def remove_non_strings(array)
   new_array = []
   array.collect do |words|
-    if words.is_a? string
+    if words.is_a? String
       new_array << words
     end
   end
