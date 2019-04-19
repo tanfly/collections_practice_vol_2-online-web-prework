@@ -8,4 +8,11 @@ def begins_with_r(array)
   
 
 def contain_a(array)
-  if array.include?("a")
+  empty_array = []
+  array.collect do |words|
+    if words.include? "a"
+      empty_array << words
+    end
+  end
+end
+  
