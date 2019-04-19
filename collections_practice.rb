@@ -20,6 +20,6 @@ end
 
 def first_wa(array) 
   array.collect do |word| 
-    word.to_s
+  word.to_s
   word.find {|letters| letters.start_with?("wa")}
 end
